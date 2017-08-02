@@ -4,7 +4,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("/")
-public class HelloWorld {
+public class EmployeeService {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
